@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "translate_tool",
+    "version": "0.1.0",
+    "description": "Right click > Translate",
+    "icons": {
+        "64": "lf5b3pp8.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "<all_urls>"
+    ]
+}
